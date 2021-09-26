@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: 'wookiist TIL',
   tagline: 'wookiist TIL',
   url: 'https://wookiist.github.io',
-  baseUrl: '/',
+  baseUrl: '/twl/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/wookii.ico',
