@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktwl=self.webpackChunktwl||[]).push([[86],{4837:function(l){l.exports=JSON.parse('{"allTagsPath":"/twl/blog/tags","slug":"/twl/blog/tags/hello","name":"hello","count":2,"permalink":"/twl/blog/tags/hello"}')}}]);
