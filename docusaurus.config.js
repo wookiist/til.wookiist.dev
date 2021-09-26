@@ -45,7 +45,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             type: 'doc',
-            docId: 'docs/main',
+            docId: 'main',
             position: 'left',
             label: 'Docs',
           },
