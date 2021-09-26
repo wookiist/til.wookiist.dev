@@ -5,9 +5,8 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "docusaurus build",
+    "build": "docusaurus build && cp CNAME ./build",
     "swizzle": "docusaurus swizzle",
-    "predepploy": "npm run build && cp CNAME ./build",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
