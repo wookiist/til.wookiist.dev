@@ -23,7 +23,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/wookiist/twl/edit/main/',
+          editUrl: 'https://github.com/wookiist/twl/edit/documentation/',
           showLastUpdateTime: true,
         },
         theme: {
