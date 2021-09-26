@@ -26,7 +26,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           editUrl: 'https://github.com/wookiist/twl/edit/main/',
           showLastUpdateTime: true,
         },
-        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -46,8 +45,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             type: 'doc',
-            to: 'docs/',
-            activeBasePath: 'docs',
+            docId: 'docs/main',
             position: 'left',
             label: 'Docs',
           },
