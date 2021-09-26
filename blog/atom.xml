@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wookiist.github.io/blog"/>
     <subtitle>wookiist TIL Blog</subtitle>
-    <icon>https://wookiist.github.io/img/favicon.ico</icon>
+    <icon>https://wookiist.github.io/img/wookii.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
