@@ -45,7 +45,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             type: 'doc',
-            docId: 'my-home-doc',
+            docId: 'intro',
             position: 'left',
             label: 'Tutorial',
           },
@@ -95,7 +95,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                href: 'https://wookiist.dev',
               },
               {
                 label: 'GitHub',
