@@ -1,6 +1,6 @@
 ---
-id: airbnb-silliconvalley
-title: '에어비앤비 엔지니어가 행복하게 일할 수 있는 이유' 영상을 보고 나서
+id: 'airbnb-silliconvalley'
+title: "'에어비앤비 엔지니어가 행복하게 일할 수 있는 이유' 영상을 보고 나서"
 ---
 
 # Prologue
