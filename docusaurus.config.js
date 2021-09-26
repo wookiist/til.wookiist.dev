@@ -13,6 +13,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/wookii.ico',
   organizationName: 'wookiist', // Usually your GitHub org/user name.
   projectName: 'twl', // Usually your repo name.
+  cname: 'til.wookiist.dev'
 
   presets: [
     [
