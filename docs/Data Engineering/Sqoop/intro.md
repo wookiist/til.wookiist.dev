@@ -5,7 +5,7 @@ title: 'Sqoop이란'
 
 ## Sqoop 이란
 
-[이미지]()
+![sqoop](https://github.com/wookiist/til.wookiist.dev/blob/documentation/static/img/Data_Engineering/Introduction/sqoop-arch.png?raw=true)
 
 Sqoop (SQL to Hadoop)은 관계형 데이터베이스(RDB)와 분산 파일 시스템(HDFS) 사이의 양방향 데이터 전송을 위해 개발된 툴이다.
 
