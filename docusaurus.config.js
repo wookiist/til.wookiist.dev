@@ -68,6 +68,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       prism: {
         theme: darkCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['java', 'scala', 'docker', 'dockerfile'],
       },
     }),
 });
