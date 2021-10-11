@@ -1,6 +1,7 @@
 ---
 id: 'de-intro-1'
 title: 'CH1 - 빅데이터의 기초 지식'
+sidebar_position: 1
 ---
 ## Hadoop
 

@@ -1,6 +1,7 @@
 ---
 id: 'sqoop-intro-01'
 title: 'Sqoop이란'
+sidebar_position: 1
 ---
 
 ## Sqoop 이란
