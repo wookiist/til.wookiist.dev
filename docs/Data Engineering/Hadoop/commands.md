@@ -33,4 +33,24 @@ title: 'Hadoop Command'
 
 ## Question
 - `hadoop fs` 명령이나 `hdfs dfs` 명령은 결국 같은 일을 하는 거 같은데 왜 분리 되어 있는거지? `docker ps`와 `docker container ls`가 같은 역할을 하는 것과 비슷한 이유인가?
+    - `hadoop fs {args}`
+    - `hadoop dfs {args}`
+    - `hdfs dfs {args}`
+    - 위 세가지 명령어는 동일해 보이지만, 미세한 차이가 있다. 
+### `hadoop fs <args>`
+`fs`는 local과 HDFS 등 모든 파일 시스템을 가리킬 수 있다. 따라서 local FS, (S)FTP, S3와 같은 다른 파일 시스템을 제어할 때 사용한다.
+
+참고로, `fs` 명령어에 인수로 URI를 전달하여 Local FS를 참조하도록 명령할 수 있다. 예를 들면 이런 식이다. 
+
+`hadoop fs -ls file:///`
+
+만약 아무런 인수도 건내주지 않는다면(=`hadoop fs -ls`) 다음을 의미한다.
+
+`hadoop fs -ls hdfs:///`
+
+### `hadoop dfs <args>`
+`dfs`는 HDFS에만 해당한다. 다만 이 명령어는 더 이상 사용하지 않으며 대신 `hdfs dfs` 명령어를 사용해야 한다.
+
+### `hdfs dfs <args>`
+앞선 `hadoop dfs <args>` 명령어와 동일하다. HDFS와 관련된 모든 작업을 수행하며, `hadoop dfs` 명령어 대신 권장되고 있다.
 
