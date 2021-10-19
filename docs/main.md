@@ -10,6 +10,10 @@ slug: /
 
 매일 새롭게 익히거나 들은 것, 본 것을 정리합니다.
 
+## To-Do
+- 검색 기능
+- 사이드바 ID 자동화
+- 댓글 기능
 
 ## 업데이트 로그
 + 2021-09-26
@@ -25,3 +29,5 @@ slug: /
 + 2021-06-13 
     - 6월 13일부터 정리 방식이 변경되었습니다!
 
+## 참고
+- [https://younho9.dev/docusaurus-manage-docs-2](https://younho9.dev/docusaurus-manage-docs-2)
