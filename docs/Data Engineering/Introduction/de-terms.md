@@ -4,6 +4,10 @@ title: 'Data Engineering Terms'
 sidebar_position: 1
 ---
 
+## CDC
+> Change Data Capture - DB 내 데이터에 대한 변경만을 식별해 필요한 후속처리(데이터 전송/공유 등)를 자동화하는 기술 또는 설계 기법이자 구조
+
+
 ## EDA
 > Exploratory Data Analysis - 탐색적 데이터 분석
 
