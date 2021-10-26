@@ -16,5 +16,8 @@ sidebar_position: 1
 ## GSLB
 > Global Server Load Balancing - 이름과는 다르게 DNS 서비스의 발전된 형태 
 
+## JournalNode
+Hadoop 설치 시에 이중화 구성을 할 때 이용하는 방식. 최근에 많이 사용하고 있다. JournalNode는 이름처름 파일 시스템의 Journaling 정보를 보관 및 공유하는 기능을 수행한다. 보통 3대의 서버로 구성하며, Splitbrain 문제를 막기 위해 Zookeeper와 유사한 방식을 사용해 이를 방지하고 있다. 
+
 ## RDD
 > Resilient Distributed Datasets - 데이터 처리 과정에서 셋을 이루고 있던 데이터의 일부에 문제가 발생해도 스스로 복구할 수 있는 데이터셋을 의미
